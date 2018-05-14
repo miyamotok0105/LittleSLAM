@@ -29,6 +29,23 @@ LittleSLAMはプログラミング言語C++で記述されています。
 
 32ビットOSでの動作確認はしていないので、必要な場合はご自分で試してください。
 
+## 実行環境(mac)
+
+brewでエラー中    
+
+```
+brew install gnuplot --with-x11
+brew upgradeすればいいのかも
+```
+
+makeもplot系でこける    
+
+```
+mkdir build
+cd build
+make
+```
+
 
 ## 必要なソフトウェア
 
